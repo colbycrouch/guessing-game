@@ -42,7 +42,7 @@ if (questionThree === 'Y'){
 
 var questionFive = prompt('Can you guess one of my favorite cars? Type the name of the vehicle...');
 console.log('this is the fifth value of question ' + questionFive);
-if (questionFive === 'Camaro' || 'Trailblazer' || 'Corvette') {
+if (questionFive === 'Camaro' || questionFive === 'Trailblazer' || questionFive === 'Corvette') {
   alert('Hot Diggity Dog, you must be psychic ' + userName);
 }
 else {
