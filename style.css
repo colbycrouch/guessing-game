@@ -23,7 +23,7 @@ body {
 
 .banana{
   width: 300px;
-  height: 300px;
+  height: 190px;
   list-style: circle;
   list-style-position:outside;
   font-family: "paltino", serif;
@@ -32,7 +32,7 @@ body {
   border: solid;
   border-color: silver;
   border-width: 8px;
-  padding: 6px;
+  padding: 4px;
   text-align: center;
   margin: 5px;
   display: inline-block;
