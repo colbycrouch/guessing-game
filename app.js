@@ -1,6 +1,6 @@
 var userName = prompt('Hey user, What\'s your name?');
 
-alert('Welcome to my guessing game ' + userName);
+alert('Welcome to my guessing game ' + userName + 'Answer questions 1 - 4 with y or n');
 
 var questionOne = prompt('Does Colby like to cook?');
 questionOne = questionOne.toUpperCase();
@@ -40,7 +40,7 @@ if (questionThree === 'Y'){
 }
 
 
-var questionFive = prompt('Can you guess one of my favorite cars? Type the name of the vehicle...');
+var questionFive = prompt('Can you guess one of my favorite cars? Type the name of the vehicle...') .toUpperCase();
 console.log('this is the fifth value of question ' + questionFive);
 if (questionFive === 'Camaro' || questionFive === 'Trailblazer' || questionFive === 'Corvette') {
   alert('Hot Diggity Dog, you must be psychic ' + userName);

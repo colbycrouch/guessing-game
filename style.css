@@ -11,7 +11,7 @@ body {
   font-family: "Impact", sans-serif;
   color: gold;
   background-color: purple;
-  background-size: 150px 150px;
+  background-size: auto;
   border: solid;
   border-color: gold;
   border-width: 12px;
@@ -20,10 +20,7 @@ body {
   margin: 5px;
   display: inline-block;
 }
-.img {
-  float: right;
-  margin: 0 0 1em 1em;
-}
+
 .banana{
   width: 300px;
   height: 300px;
