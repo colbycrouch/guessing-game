@@ -1,0 +1,21 @@
+body {
+  font-family: fantasy;
+  color: blue;
+  background-color: limegreen;
+}
+.monkey{
+  font-family: "Impact", sans-serif;
+  color: gold;
+  background-color: purple;
+  border: solid;
+  border-color: gold;
+  border-width: 12px;
+  padding: 10px;
+  text-align: center;
+
+}
+.banana{
+  color: silver;
+  background-color: navy;
+  display: block;;
+}
