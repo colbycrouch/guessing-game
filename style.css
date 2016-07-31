@@ -1,7 +1,8 @@
 body {
-  font-family: fantasy;
+  font-family: "Trebuchet MS Bold", sans-serif;;
   color: blue;
   background-color: limegreen;
+  text-align: center;
 }
 .monkey{
   font-family: "Impact", sans-serif;
@@ -12,10 +13,19 @@ body {
   border-width: 12px;
   padding: 10px;
   text-align: center;
+  margin: 5px;
 
 }
 .banana{
+  list-style: circle;
+  font-family: "paltino", serif;
   color: silver;
   background-color: navy;
-  display: block;;
+  border: solid;
+  border-color: silver;
+  border-width: 8px;
+  padding: 6px;
+  text-align: center;
+  margin: 5px;
+
 }
