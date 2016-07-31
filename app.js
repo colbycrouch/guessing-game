@@ -53,7 +53,7 @@ var questionSix = prompt('Guess a sport i enjoy watching...').toLowerCase();
 var sport = ['f1', 'mma', 'football', 'baseball'];
 console.log('this is the sixth value of question ' + questionSix);
 if (sport.indexOf(questionSix) >= 0) {
-  alert('Nice guess ' + userName);
+  alert('Good Game, Play Again ' + userName + '?');
 } else {
   alert('You are not right! and the game is over!');
 }
