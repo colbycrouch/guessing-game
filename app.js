@@ -40,7 +40,7 @@ if (questionThree === 'Y'){
 }
 
 
-var questionFive = prompt('Can you guess one of my favorite cars?');
+var questionFive = prompt('Can you guess one of my favorite cars? Type the name of the vehicle...');
 console.log('this is the fifth value of question ' + questionFive);
 if (questionFive === 'Camaro' || 'Trailblazer' || 'Corvette') {
   alert('Hot Diggity Dog, you must be psychic ' + userName);
@@ -49,4 +49,11 @@ else {
   alert('That\'s ok, maybe next time you will be a better mind reader!');
 }
 
-// var questionSix = prompt('')
+var questionSix = prompt('Guess a sport i enjoy watching...').toLowerCase();
+var sport = ['f1', 'mma', 'football', 'baseball'];
+console.log('this is the sixth value of question ' + questionSix);
+if ((sport.indexOf(questionSix) >= 0)) {
+  alert('Nice guess ' + userName);
+} else {
+  alert('You are not right! and the game is over!');
+}
