@@ -4,20 +4,28 @@ body {
   background-color: limegreen;
   text-align: center;
 }
+
 .monkey{
+  width: 850px;
+  height: 250px;
   font-family: "Impact", sans-serif;
   color: gold;
   background-color: purple;
+  background-size: 150px 150px;
   border: solid;
   border-color: gold;
   border-width: 12px;
   padding: 10px;
   text-align: center;
   margin: 5px;
-
+  display: inline-block;
 }
+
 .banana{
+  width: 300px;
+  height: 300px;
   list-style: circle;
+  list-style-position:outside;
   font-family: "paltino", serif;
   color: silver;
   background-color: navy;
@@ -27,5 +35,7 @@ body {
   padding: 6px;
   text-align: center;
   margin: 5px;
+  display: inline-block;
+  align-items: center;
 
 }
