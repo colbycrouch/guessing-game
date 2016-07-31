@@ -38,3 +38,15 @@ if (questionThree === 'Y'){
 } else if(questionThree === 'N') {
   alert('You should have quit while you were ahead!!');
 }
+
+
+var questionFive = prompt('Can you guess one of my favorite cars?');
+console.log('this is the fifth value of question ' + questionFive);
+if (questionFive === 'Camaro' || 'Trailblazer' || 'Corvette') {
+  alert('Hot Diggity Dog, you must be psychic ' + userName);
+}
+else {
+  alert('That\'s ok, maybe next time you will be a better mind reader!');
+}
+
+// var questionSix = prompt('')

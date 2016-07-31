@@ -20,7 +20,10 @@ body {
   margin: 5px;
   display: inline-block;
 }
-
+.img {
+  float: right;
+  margin: 0 0 1em 1em;
+}
 .banana{
   width: 300px;
   height: 300px;
