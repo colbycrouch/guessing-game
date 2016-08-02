@@ -1,5 +1,5 @@
 body {
-  font-family: "Trebuchet MS Bold", sans-serif;;
+  font-family: "Impact", sans-serif;;
   color: blue;
   background-color: limegreen;
   text-align: center;
@@ -8,25 +8,23 @@ body {
 .monkey{
   width: 850px;
   height: 250px;
-  font-family: "Impact", sans-serif;
+  font-family: "palatino", serif;
   color: gold;
   background-color: purple;
-  background-size: auto;
   border: solid;
   border-color: gold;
   border-width: 12px;
   padding: 10px;
   text-align: center;
   margin: 5px;
-  display:block;
-
+  display: inline-block;
 }
 
 .banana{
   width: 550px;
   height: 260px;
-  list-style: circle;
   list-style-position:outside;
+  list-style: armenian;
   font-family: "palatino", serif;
   color: silver;
   background-color: navy;
@@ -36,6 +34,22 @@ body {
   padding: 10px;
   text-align: left;
   margin: 5px;
-  display: block;
+  display: inline-block;
+}
 
+.gorilla{
+  width: 300px;
+  height: 260px;
+  list-style: armenian;;
+  list-style-position:outside;
+  font-family: "palatino", serif;
+  color: gold;
+  background-color: green;
+  border: solid;
+  border-color: gold;
+  border-width: 12px;
+  padding: 10px;
+  text-align: left;
+  margin: 5px;
+  display: inline-block;
 }
