@@ -19,23 +19,23 @@ body {
   text-align: center;
   margin: 5px;
   display:block;
-  align-items: center;
+
 }
 
 .banana{
-  width: 300px;
-  height: 250px;
+  width: 550px;
+  height: 260px;
   list-style: circle;
   list-style-position:outside;
-  font-family: "paltino", serif;
+  font-family: "palatino", serif;
   color: silver;
   background-color: navy;
   border: solid;
   border-color: silver;
   border-width: 12px;
   padding: 10px;
-  text-align: center;
+  text-align: left;
   margin: 5px;
   display: block;
-  align-items: center;
+
 }

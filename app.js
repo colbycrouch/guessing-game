@@ -55,7 +55,7 @@ console.log('this is the sixth value of question ' + questionSix);
 if (sport.indexOf(questionSix) >= 0) {
   alert('Good Game, Play Again ' + userName + '?');
 } else {
-  alert('You are not right! and the game is over!');
+  alert('You are not right!');
 }
 
 var questionSeven = parseInt(prompt('Can you guess my favorite number? You only have 5 chances'));
@@ -77,7 +77,7 @@ else if (questionSeven < answer) {
   guessCounter++;
 }
 }
-if (guessCounter <= 5)
+if (guessCounter <= 5 && questionSeven === answer)
   alert('You must be psychic, the number was in fact 71');
 else {
   alert('You failed to guess my favorite number!');
