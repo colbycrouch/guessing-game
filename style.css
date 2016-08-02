@@ -18,12 +18,13 @@ body {
   padding: 10px;
   text-align: center;
   margin: 5px;
-  display: inline-block;
+  display:block;
+  align-items: center;
 }
 
 .banana{
   width: 300px;
-  height: 190px;
+  height: 250px;
   list-style: circle;
   list-style-position:outside;
   font-family: "paltino", serif;
@@ -31,10 +32,10 @@ body {
   background-color: navy;
   border: solid;
   border-color: silver;
-  border-width: 8px;
-  padding: 4px;
+  border-width: 12px;
+  padding: 10px;
   text-align: center;
   margin: 5px;
-  display: inline-block;
-
+  display: block;
+  align-items: center;
 }
