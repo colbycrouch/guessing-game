@@ -55,5 +55,48 @@ console.log('this is the sixth value of question ' + questionSix);
 if (sport.indexOf(questionSix) >= 0) {
   alert('Good Game, Play Again ' + userName + '?');
 } else {
-  alert('You are not right! and the game is over!');
+  alert('You are not right!');
+}
+
+var questionSeven = parseInt(prompt('Can you guess my favorite number? You only have 5 chances'));
+var answer = 71;
+var guessCounter = 1;
+console.log('this is the seventh value of question + questionSeven');
+
+while (questionSeven !== answer && guessCounter < 5) {
+  if (isNaN(questionSeven)) {
+    questionSeven = parseInt(prompt('Silly Rabbit, that was not a number'));
+    guessCounter++;
+  }
+  else if (questionSeven > answer) {
+    questionSeven = parseInt(prompt('Try, try again, that was too high'));
+    guessCounter++;
+  }
+else if (questionSeven < answer) {
+  questionSeven = parseInt(prompt('Try, try again, that was too low'));
+  guessCounter++;
+}
+}
+if (guessCounter <= 5 && questionSeven === answer)
+  alert('You must be psychic, the number was in fact 71');
+else {
+  alert('You failed to guess my favorite number!');
+}
+
+var arr = ['pitbull', 'rottweiler', 'doberman', 'roman cane corso'];
+var questionEight = prompt('Last question, quick name a favorite dog breed of mine.');
+
+var isTrue = false;
+
+for (var i = 0; i < arr.length; i++) {
+  if (questionEight === arr[i]) {
+    isTrue = true;
+    break;
+  }
+}
+
+if (isTrue) {
+  alert('How do you keep doing this ' + userName);
+} else {
+  alert('You must like cats....weirdo!');
 }
