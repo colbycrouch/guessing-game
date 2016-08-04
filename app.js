@@ -61,64 +61,63 @@ function questionFive(){
 }
 questionFive();
 
-// var answerFive = prompt('Q.5) Can you guess one of my favorite cars?').toLowerCase();
-// console.log('this is the fifth value of question ' + answerFive);
-// if (answerFive === 'camaro' || answerFive === 'trailblazer' || answerFive === 'corvette') {
-//   return alert('Hot Diggity Dog, you must be psychic ' + userName);
-// }else {
-//   return alert('That\'s ok, maybe next time you will be a better mind reader!');
-// }
+function questionSix(){
+  var answerSix = prompt('Q.6) Guess a sport i enjoy watching...').toLowerCase();
+  var sport = ['f1', 'mma', 'football', 'baseball'];
+  console.log('this is the sixth value of question ' + answerSix);
+  if (sport.indexOf(answerSix) >= 0) {
+    alert('Good Game, Play Again ' + userName + '?');
+  } else {
+    alert('You are not right!');
+  }
+}
+questionSix();
 
+function questionSeven(){
+  var answerSeven = parseInt(prompt('Q.7) Can you guess my favorite number? You only have 5 chances'));
+  var answer = 71;
+  var guessCounter = 1;
+  console.log('this is the seventh value of question' + answerSeven);
 
-//
-// var questionSix = prompt('Q.6) Guess a sport i enjoy watching...').toLowerCase();
-// var sport = ['f1', 'mma', 'football', 'baseball'];
-// console.log('this is the sixth value of question ' + questionSix);
-// if (sport.indexOf(questionSix) >= 0) {
-//   alert('Good Game, Play Again ' + userName + '?');
-// } else {
-//   alert('You are not right!');
-// }
-//
-// var questionSeven = parseInt(prompt('Q.7) Can you guess my favorite number? You only have 5 chances'));
-// var answer = 71;
-// var guessCounter = 1;
-// console.log('this is the seventh value of question' + questionSeven);
-//
-// while (questionSeven !== answer && guessCounter < 5) {
-//   if (isNaN(questionSeven)) {
-//     questionSeven = parseInt(prompt('Silly Rabbit, that was not a number'));
-//     guessCounter++;
-//   }
-//   else if (questionSeven > answer) {
-//     questionSeven = parseInt(prompt('Try, try again, that was too high'));
-//     guessCounter++;
-//   }
-// else if (questionSeven < answer) {
-//   questionSeven = parseInt(prompt('Try, try again, that was too low'));
-//   guessCounter++;
-// }
-// }
-// if (guessCounter <= 5 && questionSeven === answer)
-//   alert('You must be psychic, the number was in fact 71.');
-// else {
-//   alert('You failed to guess my favorite number!');
-// }
-//
-// var arr = ['pitbull', 'rottweiler', 'doberman', 'roman cane corso'];
-// var questionEight = prompt('Q8.) Last question, Quick name a favorite dog breed of mine.');
-// var isTrue = false;
-// console.log('this is the eigth value of question' + questionEight);
-//
-// for (var i = 0; i < arr.length; i++) {
-//   if (questionEight === arr[i]) {
-//     isTrue = true;
-//     break;
-//   }
-// }
-//
-// if (isTrue) {
-//   alert('How do you keep doing this ' + userName);
-// } else {
-//   alert('You must like cats....weirdo!');
-// }
+  while (answerSeven !== answer && guessCounter < 5) {
+    if (isNaN(answerSeven)) {
+      answerSeven = parseInt(prompt('Silly Rabbit, that was not a number'));
+      guessCounter++;
+    }
+    else if (answerSeven > answer) {
+      answerSeven = parseInt(prompt('Try, try again, that was too high'));
+      guessCounter++;
+    }
+    else if (answerSeven < answer) {
+      answerSeven = parseInt(prompt('Try, try again, that was too low'));
+      guessCounter++;
+    }
+  }
+  if (guessCounter <= 5 && answerSeven === answer)
+    alert('You must be psychic, the number was in fact 71.');
+  else {
+    alert('You failed to guess my favorite number!');
+  }
+}
+questionSeven();
+
+function questionEight(){
+  var arr = ['pitbull', 'rottweiler', 'doberman', 'roman cane corso'];
+  var answerEight = prompt('Q8.) Last question, Quick name a favorite dog breed of mine.');
+  var isTrue = false;
+  console.log('this is the eigth value of question' + answerEight);
+
+  for (var i = 0; i < arr.length; i++) {
+    if (answerEight === arr[i]) {
+      isTrue = true;
+      break;
+    }
+  }
+
+  if (isTrue) {
+    alert('How do you keep doing this ' + userName);
+  } else {
+    alert('You must like cats....weirdo!');
+  }
+}
+questionEight();
