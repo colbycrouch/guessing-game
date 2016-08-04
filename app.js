@@ -5,16 +5,12 @@ function questionOne(){
   var answerOne = prompt('Q.1) Does Colby like to cook?');
   answerOne = answerOne.toUpperCase();
   console.log('this is the first value of question ' + answerOne);
-
   if(answerOne === 'Y') {
     console.log('this is the if');
     alert('You just won the super bowl ' + userName + '!....wait no, You got that right!');
-  }
-
-  else {
+  }else {
     console.log('this is the else');
     alert('You Suck!!! ' + userName + ' You got that wrong!');
-
   }
 }
 questionOne();
@@ -51,16 +47,29 @@ function questionFour() {
   }
 }
 questionFour();
-// alert('Questions 5 thru 8 will require a one word or numerical answer');
 //
-// var questionFive = prompt('Q.5) Can you guess one of my favorite cars?') .toLowerCase();
-// console.log('this is the fifth value of question ' + questionFive);
-// if (questionFive !== 'camaro' || questionFive !== 'trailblazer' || questionFive !== 'corvette') {
-//   alert('Hot Diggity Dog, you must be psychic ' + userName);
+
+// alert('Questions 5 thru 8 will require a one word or numerical answer');
+function questionFive(){
+  var answerFive = prompt('Q.5) Can you guess one of my favorite cars?').toLowerCase();
+  console.log('this is the fifth value of question ' + answerFive);
+  if (answerFive === 'camaro' || answerFive === 'trailblazer' || answerFive === 'corvette') {
+    return alert('Hot Diggity Dog, you must be psychic ' + userName);
+  }else {
+    return alert('That\'s ok, maybe next time you will be a better mind reader!');
+  }
+}
+questionFive();
+
+// var answerFive = prompt('Q.5) Can you guess one of my favorite cars?').toLowerCase();
+// console.log('this is the fifth value of question ' + answerFive);
+// if (answerFive === 'camaro' || answerFive === 'trailblazer' || answerFive === 'corvette') {
+//   return alert('Hot Diggity Dog, you must be psychic ' + userName);
+// }else {
+//   return alert('That\'s ok, maybe next time you will be a better mind reader!');
 // }
-// else {
-//   alert('That\'s ok, maybe next time you will be a better mind reader!');
-// }
+
+
 //
 // var questionSix = prompt('Q.6) Guess a sport i enjoy watching...').toLowerCase();
 // var sport = ['f1', 'mma', 'football', 'baseball'];
