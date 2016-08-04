@@ -29,21 +29,28 @@ function questionTwo() {
   }
 }
 questionTwo();
-// var questionThree = prompt('Q.3) Does he prefer Tacos over Pizza?') .toUpperCase();
-// console.log ('this is the third value of question ' + questionThree);
-// if (questionThree === 'Y'){
-//   alert('This is getting creepy ' + userName);
-// } else if(questionThree === 'N') {
-//   alert('You should just quit now!!!');
-// }
-// var questionFour = prompt('Q.4) Is he going to change careers?') .toUpperCase();
-// console.log ('this is the fourth value of question ' + questionFour);
-// if (questionThree === 'Y'){
-//   alert('You are so right ' + userName);
-// } else if(questionThree === 'N') {
-//   alert('You should have quit while you were ahead!!');
-// }
-//
+
+function questionThree() {
+  var answerThree = prompt('Q.3) Does he prefer Tacos over Pizza?') .toUpperCase();
+  console.log ('this is the third value of question ' + answerThree);
+  if (answerThree === 'Y'){
+    alert('This is getting creepy ' + userName);
+  } else if(answerThree === 'N') {
+    alert('You should just quit now!!!');
+  }
+}
+questionThree();
+
+function questionFour() {
+  var answerFour = prompt('Q.4) Is he going to change careers?') .toUpperCase();
+  console.log ('this is the fourth value of question ' + answerFour);
+  if (answerFour === 'Y'){
+    alert('You are so right ' + userName);
+  } else if(answerFour === 'N') {
+    alert('You should have quit while you were ahead!!');
+  }
+}
+questionFour();
 // alert('Questions 5 thru 8 will require a one word or numerical answer');
 //
 // var questionFive = prompt('Q.5) Can you guess one of my favorite cars?') .toLowerCase();
