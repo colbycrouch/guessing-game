@@ -5,51 +5,46 @@ body {
   text-align: center;
 }
 
-.monkey{
-  width: max-width;
+.colby_cooper{
+  max-width: 960px;
+  width: 100%;
+  height: auto;
+}
+
+.common{
+  width: content;
   height: content;
+  border: solid;
+  border-width: 12px;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.about_me{
   font-family: "palatino", serif;
   color: gold;
   background-color: purple;
-  border: solid;
   border-color: gold;
-  border-width: 12px;
-  padding: 10px;
   text-align: center;
-  margin: 5px;
-  display: block;
 }
 
-.banana{
-  width: 550px;
-  height: 260px;
+.questions{
   list-style-position:outside;
   list-style: armenian;
   font-family: "palatino", serif;
   color: silver;
   background-color: navy;
-  border: solid;
   border-color: silver;
-  border-width: 12px;
-  padding: 10px;
   text-align: left;
-  margin: 5px;
-  display: inline-block;
 }
 
-.gorilla{
-  width: 300px;
-  height: 260px;
+.top_ten{
   list-style: armenian;;
   list-style-position:outside;
   font-family: "palatino", serif;
   color: gold;
   background-color: green;
-  border: solid;
   border-color: gold;
-  border-width: 12px;
-  padding: 10px;
   text-align: left;
-  margin: 5px;
-  display: inline-block;
 }
