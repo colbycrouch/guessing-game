@@ -6,12 +6,13 @@ body {
 }
 
 .colby_cooper{
-  max-width: 960px;
+  max-width: 900px;
   width: 100%;
-  height: auto;
 }
 
 .common{
+  list-style: armenian;
+  font-family: "palatino", serif;
   width: content;
   height: content;
   border: solid;
@@ -22,7 +23,7 @@ body {
 }
 
 .about_me{
-  font-family: "palatino", serif;
+  max-width: 815px;
   color: gold;
   background-color: purple;
   border-color: gold;
@@ -30,9 +31,6 @@ body {
 }
 
 .questions{
-  list-style-position:outside;
-  list-style: armenian;
-  font-family: "palatino", serif;
   color: silver;
   background-color: navy;
   border-color: silver;
@@ -40,9 +38,6 @@ body {
 }
 
 .top_ten{
-  list-style: armenian;;
-  list-style-position:outside;
-  font-family: "palatino", serif;
   color: gold;
   background-color: green;
   border-color: gold;
