@@ -5,10 +5,9 @@ body {
   text-align: center;
 }
 
-
 .monkey{
-  width: 850px;
-  height: 250px;
+  width: max-width;
+  height: content;
   font-family: "palatino", serif;
   color: gold;
   background-color: purple;
@@ -18,7 +17,7 @@ body {
   padding: 10px;
   text-align: center;
   margin: 5px;
-  display: inline-block;
+  display: block;
 }
 
 .banana{
