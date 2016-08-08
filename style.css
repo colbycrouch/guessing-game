@@ -1,56 +1,59 @@
 body {
   font-family: "Impact", sans-serif;;
-  color: blue;
-  background-color: limegreen;
+  color: #69BE28;
+  background-color: #002244;
   text-align: center;
 }
 
-
-.monkey{
-  width: 850px;
-  height: 250px;
-  font-family: "palatino", serif;
-  color: gold;
-  background-color: purple;
-  border: solid;
-  border-color: gold;
-  border-width: 12px;
-  padding: 10px;
-  text-align: center;
-  margin: 5px;
-  display: inline-block;
+.colby_cooper{
+  max-width: 900px;
+  width: 100%;
 }
 
-.banana{
-  width: 550px;
-  height: 260px;
-  list-style-position:outside;
+.common{
   list-style: armenian;
   font-family: "palatino", serif;
-  color: silver;
-  background-color: navy;
+  width: content;
+  height: content;
   border: solid;
-  border-color: silver;
   border-width: 12px;
   padding: 10px;
-  text-align: left;
   margin: 5px;
   display: inline-block;
 }
 
-.gorilla{
-  width: 300px;
-  height: 260px;
-  list-style: armenian;;
-  list-style-position:outside;
-  font-family: "palatino", serif;
-  color: gold;
-  background-color: green;
-  border: solid;
-  border-color: gold;
-  border-width: 12px;
-  padding: 10px;
+.about_me{
+  max-width: 815px;
+  color: #b7a57a;
+  background-color: #4b2e83;
+  border-color: #85754d;
+  text-align: center;
+}
+
+.questions{
+  color: #003166;
+  background-color: #1C8B85;
+  border-color: #C0C0C0;
   text-align: left;
-  margin: 5px;
-  display: inline-block;
+}
+
+.top_ten{
+  color: #ffffff;
+  background-color: #00653a;
+  border-color: #ffc220;
+  text-align: left;
+}
+
+#title{
+  padding-top: 5px;
+}
+
+#top-nav {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: 7px solid #69BE28;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #C0C0C0;
 }
