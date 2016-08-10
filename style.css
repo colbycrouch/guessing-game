@@ -8,6 +8,7 @@ body {
 .colby_cooper{
   max-width: 900px;
   width: 100%;
+  border-radius: 50px;
 }
 
 .common{
@@ -20,6 +21,7 @@ body {
   padding: 10px;
   margin: 5px;
   display: inline-block;
+  border-radius: 50px;
 }
 
 .about_me{
